@@ -2,6 +2,8 @@ FROM java:8-jre
 
 MAINTAINER kensei
 
+EXPOSE 8080
+
 ARG FESS_VERSION
 RUN echo $FESS_VERSION
 
